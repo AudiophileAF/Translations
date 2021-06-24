@@ -1,0 +1,198 @@
+#LockLogin message file
+#----------------------------------
+#Translation: Polish (Community)
+#Editor: Audiophile#9271 (Discord Contact)
+#Last edited: 24 - June - 2021 16:14
+#----------------------------------
+# What is an official language?
+# - This language is made by the developer of LockLogin
+# - This language will receive language updates ( this means
+#   this language will be translated by the author when a new
+#   message is added )
+#
+# What is a community language?
+# - This language is made by a LockLogin community member
+# - This language must receive a community language update ( this
+#   means the author of the language pack must update the
+#   language with the new messages, LockLogin developer won't do it )
+
+#Plugin prefix
+Prefix: "&eLockLogin &7>> "
+
+#Permission error message
+PermissionError: "&5&oNie posiadasz permisji {permission}!"
+
+#BungeeCord proxy message
+BungeeProxy: "&5&oProszę, połącz przez proxy Bungee!"
+
+#Inventories messages
+PinTitle: "&8&lLockLogin PIN"
+AltTitle: "&8&lWyszukiwanie kont alternatywnych"
+InfoTitle: "&8&lInformacje o graczu"
+Next: "&eDalej"
+Back: "&eWstecz"
+
+#Session messages - Manager
+PlayerNotVerified: "&5&oNie możesz walczyć z graczem {player}, podczas gdy jest on niezalogowany lub niezarejestrowany."
+AlreadyPlaying: "&5&oTen gracz znajduje się już w grze!"
+PlayerInfoUsage: "&5&oOpcje związane z komendą playerinfo: &e<player|players>&7, &e<@[alias]>"
+MaxIp: "&5&oMaksymalna liczba kont na IP została osiągnięta na serwerze!"
+ConnectionError: "&5&oGracz {player} nie jest online."
+LookUpUsage: "&5&oProszę, użyj /account alts <player>"
+AltFound: "&5&o{player} może posiadać {alts} alternatywne konto, wpisz /account alts {player}, aby uzyskać więcej informacji!"
+NeverPlayed: "&5&oGracz {player} nigdy nie grał na serwerze!"
+TargetAccessError: "&5&oGracz {player} nie jest zalogowany lub nie jest zarejestrowany!"
+IncorrectPassword: "&5&oWpisane hasło nie jest poprawne!"
+Captcha: "&7Twój kod captcha: &e{captcha}"
+InvalidCaptcha: "&5&oWpisany kod captcha nie jest poprawny!"
+SessionServerDisabled: "&5&oTrwałe sesje są wyłączone na tym serwerze!"
+SessionEnabled: "&dWłączono trwałe sesje dla Twojego konta!"
+SessionDisabled: "&5&oWyłączono trwałe sesje dla Twojego konta!"
+
+#Session messages - Register
+Register: "&5&oProszę, użyj /register <hasło> <hasło> <captcha>"
+RegisterBar: "{color}Pozostało &7{time}{color} na rejestracje"
+Registered: "&dRejestracja ukończona, dziękujemy!"
+AlreadyRegistered: "&5&oJesteś już zarejestrowany!"
+RegisterError: "&5&oWpisane hasła nie są identyczne!"
+PasswordInsecure: "&5&oWpisane hasło nie jest bezpieczne!"
+RegisterOut: "&5&oRejestracja zajęła zbyt dużo czasu!"
+RegisterTitle: "&7Pozostało"
+RegisterSubtitle: "&b{time} &7na rejestrację"
+MaxRegisters:
+  - "{ServerName}"
+  - ""
+  - "&cOsiągnięto maksymalną ilość rejestracji na serwerze!"
+  - ""
+  - "&cJeżeli uważasz, że jest to błąd, skontaktuj się z administracją serwera."
+  - "&cKontakt do administracji: &7https://discordexample.gg"
+
+#Session messages - Login
+Login: "&5&oProszę, użyj /login <hasło> <captcha>."
+LoginBar: "{color}Pozostało &7{time}{color} na zalogowanie."
+Logged: "&dZalogowano, witaj ponownie &7{player}!"
+AlreadyLogged: "&5&oGracz jest już zalogowany!"
+LoginInsecure: "&5&oTwoje hasło zostało uznane za niebezpieczne, zmień hasło!"
+LoginOut: "&5&oLogowanie zajęło zbyt dużo czasu!"
+LoginTitle: "&7Pozostało"
+LoginSubtitle: "&b{time} &7na zalogowanie"
+
+#Session messages - Pin
+PinUsages: "&5&oOpcje związane z komendą PIN: &e<setup> (ustaw)&7, &e<remove> (usuń)&7, &e<change> (zmień)"
+PinSet: "&dTwój PIN został pomyślnie ustawiony."
+PinResetted: "&5&oPIN usunięty, Twoje konto jest teraz pod gorszą ochroną."
+PinChanged: "&dTwój PIN został pomyślnie zmieniony."
+AlreadyPin: "&5&oTwój plugin został już ustawiony!"
+NoPin: "&5&oNie posiadasz PIN'u!"
+SetPin: "&5&oProszę, użyj /pin setup <pin>"
+ResetPin: "&5&oProszę, użyj /pin remove <pin>"
+ChangePin: "&5&oProszę, użyj /pin change <pin> <nowy pin>"
+PinDisabled: "&5&oPIN'y są wyłączone!"
+PinLength: "&5&oPIN musi składać się z czterech cyfer!"
+IncorrectPin: "&5&oWprowadzony PIN nie jest poprawny!"
+
+#Session messages - 2FA
+2FaUsages: "&5&oOpcje związane z komendą 2FA: &e<setup> (ustaw)&7, &e<remove> (usuń)&7, &e<2fa code>"
+2FaSetupUsage: "&5&oProszę, użyj /2fa setup <hasło>"
+2FaRemoveUsage: "&5&oProszę, użyj /2fa remove <hasło> <kod 2fa>"
+2FaAuthenticate: "&5&oProszę, użyj /2fa w celu rozpoczęcia rozgrywki."
+2FaLogged: "&d2FA kod zweryfikowany pomyślnie."
+2FaAlreadyLogged: "&5&oGracz jest już zweryfikowany za pomocą 2FA!"
+2FaIncorrect: "&5&oNiepoprawny kod 2FA!"
+2FaAlready: "&5&oPosiadasz już ustawioną metodę weryfikacji 2FA!"
+2FaToggleError: "&5&oWykryto problem ( niepoprawne hasło/kod )!"
+Disabled2FA: "&5&oWeryfikacja 2FA została dezaktywowana, Twoje konto jest teraz gorzej chronione."
+Enabled2FA: "&dWeryfikacja 2FA została aktywowana, Twoje konto jest teraz bezpieczniejsze!"
+2FaAccountDisabled: "&5&oMetoda weryfikacji 2FA jest wyłączona na Twoim koncie!"
+2FAServerDisabled: "&5&oMetoda weryfikacji 2FA jest wyłączona na tym serwerze!"
+2FaLocked: "&5&oTen serwer zażąda metody weryfikacji 2FA."
+2FAScratchCodes:
+  - "&7Hej! &b{player}&7, to są Twoje kody odzyskiwania konta,"
+  - "&7upewnij się, że ich nie stracisz, ponieważ jest to"
+  - "&7ostatni czas, gdy je widzisz:"
+2FaInstructions:
+  - "&fJak weryfikować się za pomocą Google Authenticator?"
+  - "&71 - Naciśnij '{message}'"
+  - "&72 - Pobierz aplikację Google Authenticator"
+  - "&73 - Wciśnij '+', który znajduje się w aplikacji"
+  - "&74 - Wybierz 'Zeskanuj kod QR'"
+  - "&75 - Zeskanuj swój kod QR"
+  - "&77 - Szukaj {account} w aplikacji Google Authenticator"
+  - "&78 - Wpisz /2fa <kod pokazany w aplikacji>"
+2FaLink: "&bNaciśnij tu, aby otrzymać swój kod QR."
+
+#Session messages - Account management
+AccountArguments: "&5&oOpcje związane z komendą account: &e<change> (zmień)&7, &e<unlock> (odblokuj)&7, &e<close> (zamknij)&7, &e<remove> (usuń)&7, &e<alts>"
+Change: "&5&oProszę, użyj /account change <hasło> <nowe hasło>"
+ChangeSame: "&5&oTwoje nowe hasło nie może być identyczne jak to poprzednie!"
+ChangeDone: "&dTwoje hasło zostało zmienione!"
+AccountUnlock: "&5&oProszę, użyj /account unlock <gracz>"
+AccountUnlocked: "&dKonto gracza {player} zostało odblokowane!"
+AccountNotLocked: "&5&oKonto gracza {player} nie jest zablokowane!"
+Close: "&5&oProszę, użyj /account close [player]"
+Closed: "&5&oSesja zakończona, zaloguj się ponownie!"
+ForceClose: "&5&oTwoja sesja została zakończona przez administratora, zaloguj się ponownie!"
+ForceCloseAdmin: "&dSesja graczas {player} zamknięta."
+Remove: "&5&oProszę, użyj /account remove <password|player> [password]"
+RemoveAccountMatch: "&5&oWpisane hasła nie są identyczne!"
+AccountRemoved: "&5&oTwoje konto zostało usunięte!"
+ForcedAccountRemoval:
+  - "{ServerName}"
+  - ""
+  - "&cTwoje konto zostało usunięte przez"
+  - "&cadministratora ( &7{player}&c )"
+  - "&coraz zostało zablokowane tymczasowo,"
+  - "&caby uniknąć straty danych, dopóki członek administracji"
+  - "&codblokuje je."
+  - ""
+  - "&cJeżeli uważasz, że jest to błąd, skontaktuj się z administracją serwera."
+  - "&cKontakt do administracji: &7https://discordexample.gg"
+ForcedAccountRemovalAdmin: "&dKonto gracza {player} zostało usunięte, aby odblokować konto gracza {player} użyj /account unlock {player}!"
+
+#Spawn utilities ( includes take back )
+SpawnSet: "&dLokalizacja logowania została ustawiona!"
+LocationsReset: "&dWszystkie ostatnie lokalizacje zostały zresetowane!"
+LocationReset: "&dOstatnia lokalizacja gracza {player} została zresetowana!"
+LocationsFixed: "&dWszystkie ostatnie lokalizacje zostały naprawione!"
+LocationFixed: "&dLokalizacja gracza {player} została naprawiona!"
+ResetLastLocUsage: "&5&oProszę, użyj /locations [player|@all|@me] <remove|fix>"
+
+#Alias messages
+AliasArguments: "&5&oOpcje związane z komendą alias: &e<create> (stwórz)&7, &e<destroy> (zniszcz)&7, &e<add> (dodaj)&7, &e<remove> (usuń) [alias] [player(s)]"
+AliasCreated: "&dAlias {alias} utworzony pomyślnie!"
+AliasDestroyed: "&5&oAlias {alias} został zniszczony!"
+AliasExists: "&5&oAlias {alias} już istnieje!"
+AliasNotFound: "&5&oNie można znaleźć żadnego alias o tej nazwie: {alias}"
+AddedPlayer: "&dDodano gracza {player} do {alias}"
+RemovedPlayer: "&dUsunięto gracza {player} z {alias}"
+PlayerNotIn: "&5&o{player} nie znajduje się w {alias}!"
+PlayerAlreadyIn: "&5&o{player} znajduje się już w {alias}!"
+
+#Security messages
+IpBlocked:
+  - "{ServerName}"
+  - ""
+  - "&cSystemy weryfikacji LockLogin wykryły"
+  - "&cpodejrzany ruch na Twoim IP, Twój adres IP został zablokowany."
+  - "&f{time} {time_format}"
+AntiBot:
+  - "&f{ServerName}"
+  - ""
+  - "&cStaramy się uniknąć botów, dodaj ten serwer do listy serwerów w grze."
+  - "&cJeżeli ten serwer znajduje się już na Twojej liście serwerów, odśwież ją."
+IllegalName:
+  - "{ServerName}"
+  - ""
+  - "&cTwój nick nie może zawierać:"
+  - "{chars}"
+UUIDFetchError:
+  - "{ServerName}"
+  - ""
+  - "&cCoś poszło nie tak podczas weryfikacji Twojego UUID."
+  - "&cProblemem jest prawdopodobnie nazwa clienta..."
+IpProxyError:
+  - "{ServerName}"
+  - ""
+  - "&cTwój adres IP wydaje się być troszkę podejrzany."
+  - "&cJeżeli uważasz, że jest to błąd, skontaktuj się z administracją serwera."
+  - "&cKontakt do administracji: &7https://discordexample.gg"
